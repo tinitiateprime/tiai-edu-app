@@ -1,0 +1,29 @@
+{
+  "repoName": "news-ticker",
+  "items": [
+    {
+      "id": "jobs-java-full-stack",
+      "kind": "jobs",
+      "label": "Jobs",
+      "title": "Java Full Stack openings are now a priority hiring track.",
+      "href": "https://www.linkedin.com/company/tinitiate/",
+      "priority": 1
+    },
+    {
+      "id": "trend-agentic-ai",
+      "kind": "trending-technologies",
+      "label": "Trending Technology",
+      "title": "Agentic AI, RAG, and full-stack GenAI are trending in current learning plans.",
+      "href": "https://tinitiate.com/",
+      "priority": 2
+    },
+    {
+      "id": "event-weekend-workshop",
+      "kind": "events",
+      "label": "TinitiateAI Event",
+      "title": "Weekend architecture workshop demo slot added for learners.",
+      "href": "https://tinitiate.com/",
+      "priority": 3
+    }
+  ]
+}

@@ -1,5 +1,109 @@
-# Scroll+ Tinitiate PWA
-## [Vue JS](https://github.com/tinitiateprime/vue-Js/blob/main/README.md)
-## [SQL Server](https://github.com/tinitiateprime/sqlserver/blob/main/README.md)
-## [Java](https://github.com/tinitiateprime/java-fullstack/blob/main/README.md)
-## [Next JS](https://github.com/tinitiateprime/Next-Js/blob/main/README.md) 
+# Tinitiate Education Content Repository
+
+This repository is the content source for the Tinitiate education web app.
+
+Recommended future repository name:
+
+- `tiai-edu-app`
+
+Until the GitHub rename happens, the app can continue to fetch from the current repository name and switch over later through one central config value.
+
+## Purpose
+
+This repository organizes every major learning module in one place:
+
+- `interview-qna`
+- `courses`
+- `slideshows`
+- `training-videos`
+- `audio-books`
+- `news-ticker`
+
+The website should fetch data from this repository so content updates can be managed through GitHub instead of hardcoding data inside the app.
+
+## Folder Guide
+
+### `interview-qna`
+
+Stores interview questions and answers in markdown.
+
+- `catalog.json` is the app manifest
+- `questions/*.md` are the detailed answer files
+
+### `courses`
+
+Stores the course catalog and subject entry READMEs.
+
+- `catalog.json` is the subject manifest
+- `courses/<subject>/README.md` defines topic order for that subject
+
+The subject READMEs in this repository are imported from the existing course repositories so the app can use one content index while still reusing the current course material.
+
+### `slideshows`
+
+Stores markdown slideshow decks for CBT.
+
+- `av-metadata.json` is the deck manifest
+- each deck contains a `slideshow-content.md`
+- slide separator: `---`
+
+### `training-videos`
+
+Stores YouTube playlist or video metadata for training content.
+
+- `av-metadata.json` is the media manifest
+- `collections/*.md` provides optional notes for the UI
+
+### `audio-books`
+
+Stores audio-learning metadata and optional notes.
+
+- `av-metadata.json` is the media manifest
+- `collections/*.md` provides optional notes for the UI
+
+### `news-ticker`
+
+Stores top-strip content for:
+
+- jobs
+- trending technologies
+- TinitiateAI events
+
+## Content Update Rules
+
+### Interview QnA
+
+1. Add a new markdown file in `interview-qna/questions/`
+2. Add a matching entry in `interview-qna/catalog.json`
+
+### Courses
+
+1. Add or update the subject entry in `courses/catalog.json`
+2. Keep subject topic order inside the subject `README.md`
+3. Topic markdown links inside that README should point to valid markdown files
+
+### Slideshows
+
+1. Add a new deck entry in `slideshows/av-metadata.json`
+2. Add the deck markdown file
+3. Keep slide order in markdown using `---`
+
+### Videos and Audio
+
+1. Add metadata in the correct `av-metadata.json`
+2. Add optional notes markdown if needed
+
+### News Ticker
+
+1. Add a new item in `news-ticker/feed.json`
+2. Set `kind`, `label`, `title`, `href`, and `priority`
+
+## App Fetching Model
+
+The website should:
+
+1. fetch manifest files from this repository
+2. resolve markdown or metadata paths from those manifests
+3. render content without hardcoding the data inside the app
+
+This keeps GitHub as the content CMS and keeps the frontend focused on presentation.
