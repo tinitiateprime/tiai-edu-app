@@ -1,0 +1,21 @@
+{
+  "repoName": "design",
+  "courses": {
+    "vue-js": {
+      "label": "Vue JS",
+      "iconPath": "design/course-icons/vue-js.svg"
+    },
+    "sql-server": {
+      "label": "SQL Server",
+      "iconPath": "design/course-icons/sql-server.svg"
+    },
+    "java": {
+      "label": "Java",
+      "iconPath": "design/course-icons/java.svg"
+    },
+    "next-js": {
+      "label": "Next JS",
+      "iconPath": "design/course-icons/next-js.svg"
+    }
+  }
+}
