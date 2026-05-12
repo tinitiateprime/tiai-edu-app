@@ -1,0 +1,14 @@
+{
+  "repoName": "interview-qna",
+  "questions": [
+    {
+      "slug": "design-authentication-service",
+      "title": "How would you design an authentication service?",
+      "category": "System Design",
+      "level": "Intermediate",
+      "question": "Explain how you would design an authentication service for a training platform used by students, trainers, and admins.",
+      "tags": ["auth", "jwt", "sessions", "security", "architecture"],
+      "answerPath": "interview-qna/questions/design-authentication-service.md"
+    }
+  ]
+}
