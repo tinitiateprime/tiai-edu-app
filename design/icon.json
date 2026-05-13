@@ -7,11 +7,11 @@
     },
     "sql-server": {
       "label": "SQL Server",
-      "iconPath": "design/course-icons/sql-server.svg"
+      "iconPath": "design/course-icons/sql-server.webp"
     },
     "java": {
       "label": "Java",
-      "iconPath": "design/course-icons/java.svg"
+      "iconPath": "design/course-icons/java.png"
     },
     "next-js": {
       "label": "Next JS",
