@@ -55,7 +55,7 @@ Stores markdown slideshow decks for CBT.
 
 ### `cbt/training-videos`
 
-Stores YouTube playlist or video metadata for training content.
+Stores training-video metadata for content that can be embedded or streamed directly by the app.
 
 - `av-metadata.json` is the media manifest
 - `collections/*.md` provides optional notes for the UI
@@ -98,6 +98,9 @@ Stores top-strip content for:
 
 1. Add metadata in the correct `cbt/*/av-metadata.json`
 2. Add optional notes markdown if needed
+3. For repo-hosted offline playback, use `mediaPath` for files such as `.mp4`, `.webm`, `.mp3`, or `.m4a`
+4. Optional fields:
+   `posterPath` for thumbnails, `mimeType` for explicit media type, `embedUrl` for demo embeds, and `playlistUrl` for external source links
 
 ### News Ticker
 
