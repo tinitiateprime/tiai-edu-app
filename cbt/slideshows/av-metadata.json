@@ -1,5 +1,5 @@
 {
-  "repoName": "slideshows",
+  "repoName": "cbt/slideshows",
   "decks": [
     {
       "slug": "react-state-basics",
@@ -7,7 +7,7 @@
       "summary": "Demo markdown slideshow showing how CBT slide decks can be fetched from the GitHub content repository.",
       "audience": "CBT Demo",
       "tags": ["react", "state", "demo"],
-      "contentPath": "slideshows/decks/react-state-basics/slideshow-content.md"
+      "contentPath": "cbt/slideshows/decks/react-state-basics/slideshow-content.md"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "repoName": "training-videos",
+  "repoName": "cbt/training-videos",
   "items": [
     {
       "slug": "full-stack-orientation-demo",
@@ -9,7 +9,7 @@
       "playlistUrl": "https://www.youtube.com/",
       "embedUrl": "https://www.youtube.com/embed/ysz5S6PUM-U",
       "tags": ["orientation", "full-stack", "demo"],
-      "notesPath": "training-videos/collections/full-stack-orientation-demo.md"
+      "notesPath": "cbt/training-videos/collections/full-stack-orientation-demo.md"
     }
   ]
 }

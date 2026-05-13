@@ -14,9 +14,7 @@ This repository organizes every major learning module in one place:
 
 - `interview-qna`
 - `courses`
-- `slideshows`
-- `training-videos`
-- `audio-books`
+- `cbt`
 - `news-ticker`
 
 The website should fetch data from this repository so content updates can be managed through GitHub instead of hardcoding data inside the app.
@@ -39,7 +37,15 @@ Stores the course catalog and subject entry READMEs.
 
 The subject READMEs in this repository are imported from the existing course repositories so the app can use one content index while still reusing the current course material.
 
-### `slideshows`
+### `cbt`
+
+Stores all CBT content in one folder:
+
+- `cbt/slideshows`
+- `cbt/training-videos`
+- `cbt/audio-books`
+
+### `cbt/slideshows`
 
 Stores markdown slideshow decks for CBT.
 
@@ -47,14 +53,14 @@ Stores markdown slideshow decks for CBT.
 - each deck contains a `slideshow-content.md`
 - slide separator: `---`
 
-### `training-videos`
+### `cbt/training-videos`
 
 Stores YouTube playlist or video metadata for training content.
 
 - `av-metadata.json` is the media manifest
 - `collections/*.md` provides optional notes for the UI
 
-### `audio-books`
+### `cbt/audio-books`
 
 Stores audio-learning metadata and optional notes.
 
@@ -84,13 +90,13 @@ Stores top-strip content for:
 
 ### Slideshows
 
-1. Add a new deck entry in `slideshows/av-metadata.json`
+1. Add a new deck entry in `cbt/slideshows/av-metadata.json`
 2. Add the deck markdown file
 3. Keep slide order in markdown using `---`
 
 ### Videos and Audio
 
-1. Add metadata in the correct `av-metadata.json`
+1. Add metadata in the correct `cbt/*/av-metadata.json`
 2. Add optional notes markdown if needed
 
 ### News Ticker

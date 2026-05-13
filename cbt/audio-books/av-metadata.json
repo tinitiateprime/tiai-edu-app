@@ -1,5 +1,5 @@
 {
-  "repoName": "audio-books",
+  "repoName": "cbt/audio-books",
   "items": [
     {
       "slug": "system-design-audio-demo",
@@ -9,7 +9,7 @@
       "playlistUrl": "https://www.youtube.com/",
       "embedUrl": "https://www.youtube.com/embed/jNQXAC9IVRw",
       "tags": ["system-design", "audio", "demo"],
-      "notesPath": "audio-books/collections/system-design-audio-demo.md"
+      "notesPath": "cbt/audio-books/collections/system-design-audio-demo.md"
     }
   ]
 }
