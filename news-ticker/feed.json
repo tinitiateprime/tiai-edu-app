@@ -20,6 +20,14 @@
       "priority": 2
     },
     {
+    "id": "trend-cloud-devops",
+    "kind": "trending-technologies",
+    "label": "Trending Technology",
+    "title": "Cloud-native development, DevOps, and Kubernetes skills are highly in demand for modern software roles.",
+    "href": "https://tinitiate.com/",
+    "priority": 3
+  },
+    {
       "id": "event-weekend-workshop",
       "kind": "events",
       "label": "TinitiateAI Event",
