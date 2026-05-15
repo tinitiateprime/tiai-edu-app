@@ -81,7 +81,7 @@ This is enough for the current application and can later evolve into permission-
 
 - centralizes security decisions
 - reusable across modules
-- easier to audit and scale
+- easier to audit and scale and cheap
 
 ## Cons
 
