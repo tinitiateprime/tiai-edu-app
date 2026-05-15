@@ -102,9 +102,9 @@
     },
     "sections": {
       "interview": {
-        "accent": "#a855f7",
-        "surfaceLight": "linear-gradient(135deg, rgba(233, 213, 255, 0.72), rgba(255, 255, 255, 0.96))",
-        "surfaceDark": "linear-gradient(135deg, rgba(88, 28, 135, 0.44), rgba(15, 23, 42, 0.96))"
+        "accent": "#f43f5e",
+        "surfaceLight": "linear-gradient(135deg, rgba(255, 228, 230, 0.78), rgba(255, 255, 255, 0.96))",
+        "surfaceDark": "linear-gradient(135deg, rgba(136, 19, 55, 0.48), rgba(15, 23, 42, 0.96))"
       },
       "courses": {
         "accent": "#2563eb",
