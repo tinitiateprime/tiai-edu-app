@@ -58,12 +58,12 @@
       ]
     },
     {
-      "id": "system-design",
-      "title": "System Design",
+      "id": "Vue Js",
+      "title": "Vue Js",
       "label": "Revision topic",
       "accent": "var(--dashboard-section-cbt-accent)",
       "imageSurface": "linear-gradient(135deg, color-mix(in srgb, var(--dashboard-section-cbt-accent) 18%, var(--surface)), color-mix(in srgb, var(--brand) 10%, var(--surface)))",
-      "imagePath": "design/course-icons/java.png",
+      "imagePath": "design/course-icons/vue-js.svg",
       "slides": [
         {
           "eyebrow": "Concept",
