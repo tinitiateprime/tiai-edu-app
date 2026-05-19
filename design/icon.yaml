@@ -12,3 +12,6 @@ courses:
   next-js:
     label: Next JS
     iconPath: design/course-icons/next-js.svg
+  ai:
+    label: AI
+    iconPath: design/course-icons/ai.svg

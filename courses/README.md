@@ -19,9 +19,9 @@ Provide one clean place where the app can discover:
 
 ## Current Source Strategy
 
-The current course material already exists in dedicated repositories.
+Most existing course material already exists in dedicated repositories.
 
-Instead of rewriting all course material immediately, this folder imports the subject-level README structure into one central content repository. That gives the website a single catalog while continuing to reuse the current markdown source files.
+Instead of rewriting all course material immediately, this folder imports the subject-level README structure into one central content repository. New subjects can also be authored directly in this repository with local markdown files. That gives the website a single catalog while continuing to reuse the current markdown source files where needed.
 
 ## Subject Folders
 
@@ -29,6 +29,7 @@ Instead of rewriting all course material immediately, this folder imports the su
 - `sql-server`
 - `java`
 - `next-js`
+- `ai`
 
 ## How To Add A New Course
 
