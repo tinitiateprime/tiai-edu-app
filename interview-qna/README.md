@@ -1,36 +1,33 @@
-# Interview QnA
+# Interview Q&A
 
-This folder stores interview preparation content for the Tinitiate education app.
+Add one Markdown file per course in this folder.
 
-## Goal
+Examples:
 
-Keep interview questions and answers in a markdown-first format so they are:
+- `java.md`
+- `sql.md`
+- `react.md`
+- `system-design.md`
 
-- easy to review
-- easy to update in GitHub
-- easy for the website to fetch and render
+Use this format:
 
-## Structure
+```md
+# Course Name
 
-- `catalog.yaml`
-- `questions/*.md`
+## Question title goes here
+Level: Beginner
+Tags: #tag-one #tag-two
 
-## Content Format
+### Answer
+- Write the answer in normal Markdown.
+- Bullet points are fine.
+- Code blocks, headings, and diagrams are fine too.
+```
 
-Each answer markdown file should preferably use this structure:
+Rules:
 
-- question title
-- architecture overview
-- key components
-- data flow or execution flow
-- pros
-- cons
-- interview-ready answer
-- follow-up questions
-
-## How To Add A New Question
-
-1. Add a markdown file in `questions/`
-2. Add the metadata entry in `catalog.yaml`
-3. Use a unique `slug`
-4. Keep the answer concise, structured, and interview-friendly
+- `# Course Name` is the course/category name.
+- Every `##` heading becomes one interview question.
+- `Level:` is optional. If it is missing, the app shows `General`.
+- `Tags:` is optional. Use `#java #oop` or `java, oop`.
+- Put the answer under `### Answer`.
