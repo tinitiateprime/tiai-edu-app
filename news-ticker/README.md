@@ -10,11 +10,11 @@ This folder stores the top ticker content for the website.
 
 ## Structure
 
-- `feed.json`
+- `feed.yaml`
 
 ## How To Add A New Ticker Item
 
-1. Add a new object in `feed.json`
+1. Add a new object in `feed.yaml`
 2. Set a unique `id`
 3. Choose `kind`
 4. Provide `label`, `title`, `href`, and `priority`

@@ -1,6 +1,6 @@
 # Dashboard Cards
 
-Edit `cards.json` to control the swipe card on the app dashboard.
+Edit `cards.yaml` to control the swipe card on the app dashboard.
 
 - Add a new item to `topics` for each vertical swipe topic.
 - Add a new item to `slides` for each horizontal swipe card inside that topic.

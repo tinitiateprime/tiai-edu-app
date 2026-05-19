@@ -13,7 +13,7 @@ Support audio-first learning collections such as:
 
 ## Structure
 
-- `av-metadata.json`
+- `av-metadata.yaml`
 - optional notes in `collections/*.md`
 
 ## How To Add A New Audio Collection

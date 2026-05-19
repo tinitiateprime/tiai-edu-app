@@ -13,7 +13,7 @@ Provide one clean place where the app can discover:
 
 ## How This Folder Works
 
-- `catalog.json` is the machine-readable manifest
+- `catalog.yaml` is the machine-readable manifest
 - each subject folder contains a `README.md`
 - each subject `README.md` defines the topic order for that subject
 
@@ -34,5 +34,5 @@ Instead of rewriting all course material immediately, this folder imports the su
 
 1. Create a new subject folder
 2. Add `README.md` for that subject
-3. Add the subject entry in `catalog.json`
+3. Add the subject entry in `catalog.yaml`
 4. Ensure all markdown links are valid and ordered correctly

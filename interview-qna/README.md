@@ -12,7 +12,7 @@ Keep interview questions and answers in a markdown-first format so they are:
 
 ## Structure
 
-- `catalog.json`
+- `catalog.yaml`
 - `questions/*.md`
 
 ## Content Format
@@ -31,6 +31,6 @@ Each answer markdown file should preferably use this structure:
 ## How To Add A New Question
 
 1. Add a markdown file in `questions/`
-2. Add the metadata entry in `catalog.json`
+2. Add the metadata entry in `catalog.yaml`
 3. Use a unique `slug`
 4. Keep the answer concise, structured, and interview-friendly
