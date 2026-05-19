@@ -16,7 +16,6 @@ Use this format:
 
 ## Question title goes here
 Level: Beginner
-Tags: #tag-one #tag-two
 
 ### Answer
 - Write the answer in normal Markdown.
@@ -29,5 +28,4 @@ Rules:
 - `# Course Name` is the course/category name.
 - Every `##` heading becomes one interview question.
 - `Level:` is optional. If it is missing, the app shows `General`.
-- `Tags:` is optional. Use `#java #oop` or `java, oop`.
 - Put the answer under `### Answer`.

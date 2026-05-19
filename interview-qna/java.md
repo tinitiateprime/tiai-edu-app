@@ -2,7 +2,6 @@
 
 ## What is object-oriented programming?
 Level: Beginner
-Tags: #java #oop #classes
 
 ### Answer
 - Object-oriented programming organizes code around objects.
@@ -12,7 +11,6 @@ Tags: #java #oop #classes
 
 ## What is the difference between an interface and an abstract class?
 Level: Intermediate
-Tags: #java #interface #abstract-class
 
 ### Answer
 - An interface defines a contract that a class promises to implement.
@@ -22,7 +20,6 @@ Tags: #java #interface #abstract-class
 
 ## Why are Java collections important?
 Level: Beginner
-Tags: #java #collections #arraylist #hashmap
 
 ### Answer
 - Collections store and organize groups of objects.

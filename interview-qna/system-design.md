@@ -2,7 +2,6 @@
 
 ## How would you design an authentication service?
 Level: Intermediate
-Tags: #system-design #auth #jwt #sessions #security
 
 ### Answer
 - Start by clarifying users, roles, login methods, expected traffic, and security requirements.
@@ -22,7 +21,6 @@ flowchart LR
 
 ## How would you design an API gateway?
 Level: Intermediate
-Tags: #system-design #api-gateway #routing #security
 
 ### Answer
 - Place the gateway between clients and backend services.
@@ -32,7 +30,6 @@ Tags: #system-design #api-gateway #routing #security
 
 ## How would you design a notification service?
 Level: Intermediate
-Tags: #system-design #notifications #queues #email #sms
 
 ### Answer
 - Accept notification requests through an API.
