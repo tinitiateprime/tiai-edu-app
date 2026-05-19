@@ -1,6 +1,6 @@
 # Interview Q&A
 
-Add one Markdown file per course in this folder.
+Add one Markdown file per course in this folder. The app shows each file as one course card. When a user opens that course, all questions and answers from the file appear on the same page.
 
 Examples:
 
