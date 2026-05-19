@@ -51,7 +51,7 @@ Level: Beginner
 ### Python Code
 ```python
 student = {
-    "name": "Kaushik",
+    "name": "Hello",
     "age": 21,
     "course": "Python"
 }
@@ -75,7 +75,7 @@ Level: Beginner
 def greet(name):
     return f"Hello, {name}"
 
-message = greet("Kaushik")
+message = greet("Hello")
 print(message)
 ```
 
@@ -99,7 +99,7 @@ class Student:
     def introduce(self):
         print(f"My name is {self.name}")
 
-student1 = Student("Kaushik")
+student1 = Student("Hello")
 student1.introduce()
 ```
 
