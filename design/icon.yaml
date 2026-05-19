@@ -14,4 +14,4 @@ courses:
     iconPath: design/course-icons/next-js.svg
   ai:
     label: AI
-    iconPath: design/course-icons/ai.svg
+    iconPath: design/course-icons/ai.png

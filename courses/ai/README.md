@@ -1,6 +1,6 @@
 # AI Course
 
-![AI course visual](../../design/course-icons/ai.svg)
+![AI course visual](../../design/course-icons/ai.png)
 
 This course is authored directly inside the Tinitiate education content repository. It teaches artificial intelligence from the ground up, then moves into practical engineering workflows for machine learning, generative AI, retrieval-augmented generation, agents, evaluation, safety, and production delivery.
 
@@ -69,4 +69,3 @@ This course is authored directly inside the Tinitiate education content reposito
 ## Conclusion
 
 By the end of this course, learners should be able to design useful AI features, choose the right technique, build a reliable prototype, evaluate quality, and prepare an AI system for production use.
-

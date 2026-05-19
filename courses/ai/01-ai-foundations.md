@@ -2,7 +2,7 @@
 
 Artificial intelligence is the practice of building systems that can perform tasks that normally require human judgment, perception, language understanding, reasoning, or adaptation. In software terms, AI is not one single tool. It is a family of techniques that help applications classify, predict, recommend, search, generate, and automate.
 
-![AI course visual](../../design/course-icons/ai.svg)
+![AI course visual](../../design/course-icons/ai.png)
 
 ## What AI Can Do
 
@@ -42,4 +42,3 @@ A practical AI system usually has these parts:
 ## Learning Goal
 
 The goal of this course is not just to explain AI concepts. The goal is to help learners build practical AI products with clear problem framing, good data habits, strong evaluation, and responsible deployment.
-
